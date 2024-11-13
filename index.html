@@ -1,871 +1,540 @@
 <!doctype html>
-<html class="no-js" lang="en">
-
+<html lang="en">
 <head>
-    <!-- meta data -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!--font-family-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
-          rel="stylesheet">
-
-
-    <!-- title of site -->
-    <title>Polycarp Keru</title>
-
-    <!-- For favicon png -->
-    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
-
-    <!--font-awesome.min.css-->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <!--flat icon css-->
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-
-    <!--animate.css-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-
-
-    <!--bootstrap.min.css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!-- bootsnav -->
-    <link rel="stylesheet" href="assets/css/bootsnav.css">
-
-    <!--style.css-->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!--responsive.css-->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--    &lt;!&ndash; WARNING: Respond.js doesn't work if you view the page via file:// &ndash;&gt;-->
-
-    <!--    &lt;!&ndash;[if lt IE 9]>-->
-    <!--        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>-->
-    <!--        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
-    <!--    <![endif]&ndash;&gt;-->
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+          integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+          integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>PS</title>
 </head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+<!-- reference the .navbar to make it responsive work on it later-->
 
-<body>
-<!--&lt;!&ndash;[if lte IE 9]>-->
-<!--    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>-->
-<!--<![endif]&ndash;&gt;-->
-
-<!-- top-area Start -->
-<header class="top-area">
-    <div class="header-area">
-        <!-- Start Navigation -->
-        <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
-
-            <div class="container">
-
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Polycarp</a>
-                </div><!--/.navbar-header-->
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class=" smooth-menu active"></li>
-                        <li class=" smooth-menu"><a href="#education">education</a></li>
-                        <li class="smooth-menu"><a href="#skills">skills</a></li>
-                        <li class="smooth-menu"><a href="#experience">experience</a></li>
-                        <li class="smooth-menu"><a href="#profiles">profile</a></li>
-                        <li class="smooth-menu"><a href="#portfolio">Certifications</a></li>
-                        <li class="smooth-menu"><a href="#clients">clients</a></li>
-                        <li class="smooth-menu"><a href="#contact">contact</a></li>
-                    </ul><!--/.nav -->
-                </div><!-- /.navbar-collapse -->
-            </div><!--/.container-->
-        </nav><!--/nav-->
-        <!-- End Navigation -->
-    </div><!--/.header-area-->
-
-    <div class="clearfix"></div>
-
-</header><!-- /.top-area-->
-<!-- top-area End -->
-
-<!--welcome-hero start -->
-<section id="welcome-hero" class="welcome-hero">
+<!--  main navbar-->
+<nav class="top-nav" id="home">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="header-text">
-                    <h2><span></span> Polycarp Keru<br>Maina <br> <span></span></h2>
-                    <p>Air Quality Technician|Civil Engineering Technician.</p>
-                    <a href="assets/download/browney.txt" download>download resume</a>
-                </div><!--/.header-text-->
-            </div><!--/.col-->
-        </div><!-- /.row-->
-    </div><!-- /.container-->
-
-</section><!--/.welcome-hero-->
-<!--welcome-hero end -->
-0
-<!--about start -->
-<section id="about" class="about">
-    <div class="section-heading text-center">
-        <h2>about me</h2>
-    </div>
-    <div class="container">
-        <div class="about-content">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="single-about-txt">
-                        <h3>
-                            Profile Summary
-                        </h3>
-                        <p>
-                            Dynamic and results-driven Emission Measurements Specialist with extensive experience in
-                            stack emission
-                            sampling and monitoring. Proficient in laboratory tests, data analysis, and detailed
-                            reporting for identifying
-                            environmental risks. Adept at ensuring compliance with environmental permits and regulations
-                            at industrial
-                            facilities and construction sites. Proven expertise in developing and implementing emission
-                            management
-                            plans. Hands-on experience in environmental sampling, monitoring, and technical support.
-                            Solid educational
-                            background in Building Technology and Civil Engineering.
-                        </p>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="single-about-add-info">
-                                    <h3></h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="single-about-add-info">
-                                    <h3></h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="single-about-add-info">
-                                    <h3></h3>
-                                    <!--											<p>www.brownsine.com</p>-->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-offset-1 col-sm-5">
-                    <div class="single-about-img">
-                        <img src="assets/images/about/photo1.jpeg" alt="profile_image">
-                        <div class="about-list-icon">
-                            <ul>
-
-
-                                <li>
-                                    <a href="l linkedin.com/in/polycarp-keru-1b9626236/">
-                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-<!--                                <edit this image later>-->
-                                <li>
-                                    <a href="#" target="_blank"> <img src="assets/images/portfolio/arrow2.png"
-                                                                      alt=""> </a>
-                                    <i class="assets/images/portfolio/arrow2.png" aria-hidden="true"></i>
-
-                                </li><!-- / li -->
-
-
-                            </ul><!-- / ul -->
-                        </div><!-- /.about-list-icon -->
-
-                    </div>
-
+        <div class="row justify-content-between">
+            <div class="col-auto">
+                <p>
+                    <img src="images/phone-call-regular-24.png" alt=""> 0798017611
+                </p>
+                <p>
+                    <img src="images/gmail-logo-24.png" alt=""> jacklinegathoni46@gmail.com
+                </p>
+            </div>
+            <div class="col-auto">
+                <div class="social-links">
+                    <a href="#" target="_blank"> <img src="images/tiktok-logo-24.png" alt="Twitter"> </a>
+                    <a href="#" target="_blank"> <img src="images/whatsapp-logo-24.png" alt="snapchat"> </a>
+                    <a href="#" target="_blank"> <img src="images/linkedin-logo-24%20(1).png" alt="Linkedin"> </a>
+                    <a href="#" target="_blank"> <img src="images/reddit-logo-24.png" alt="reddit"> </a>
                 </div>
             </div>
         </div>
     </div>
-</section><!--/.about-->
-<!--about end -->
-
-<!--education start -->
-<section id="education" class="education">
-    <div class="section-heading text-center">
-        <h2>education</h2>
-    </div>
-    <div class="container">
-        <div class="education-horizontal-timeline">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="single-horizontal-timeline">
-                        <div class="experience-time">
-                            <h2>2018-2021</h2>
-                            <h3>Diploma <span>of </span> Building and Civil Engineering</h3>
-                        </div><!--/.experience-time-->
-                        <div class="timeline-horizontal-border">
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <span class="single-timeline-horizontal"></span>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <h4 class="title">
-                                    Meru National Polytechnic
-                                </h4>
-                                <h5>Meru, Kenya</h5>
-                                <p class="description">
-                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-                                    fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                </p>
-                            </div><!--/.timeline-content-->
-                        </div><!--/.timeline-->
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="single-horizontal-timeline">
-                        <div class="experience-time">
-                            <h2>2014-2017</h2>
-                            <h3><span>of </span> High school</h3>
-                        </div><!--/.experience-time-->
-                        <div class="timeline-horizontal-border">
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <span class="single-timeline-horizontal spacial-horizontal-line
-									"></span>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <h4 class="title">
-                                    Njega Boys High School
-                                </h4>
-                                <h5>Kerugoya,Kenya</h5>
-                                <p class="description">
-                                    Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-                                    fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
-                                </p>
-                            </div><!--/.timeline-content-->
-                        </div><!--/.timeline-->
-                    </div>
-                </div>
-            </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <!-- class stick top ensures the navbar doesnt move-->
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">JG <span>.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about us">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-brand ms-lg-3 " data-bs-toggle="modal" data-bs-target="#exampleModal">Contact
+                Us</a>
+            <!-- from the class data-bs -toggle represents the moval live button the other part is below the footer-->
         </div>
     </div>
+</nav>
+<!-- slider section-->
 
-</section><!--/.education-->
-<!--education end -->
-
-<!--skills start -->
-<section id="skills" class="skills">
-    <div class="skill-content">
-        <div class="section-heading text-center">
-            <h2>skills</h2>
-        </div>
+<div class="slider-wrapper owl-carousel owl-theme" id="hero-slider">
+    <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="single-skill-content">
-                        <div class="barWrapper">
-                            <span class="progressText">Problem Solving</span>
-                            <div class="single-progress-txt">
-                                <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10"
-                                         aria-valuemax="100" style="">
-
-                                    </div>
-                                </div>
-                                <h3></h3>
-                            </div>
-                        </div><!-- /.barWrapper -->
-                        <div class="barWrapper">
-                            <span class="progressText">Attention to Detail</span>
-                            <div class="single-progress-txt">
-                                <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10"
-                                         aria-valuemax="100" style="">
-
-                                    </div>
-                                </div>
-                                <h3></h3>
-                            </div>
-                        </div><!-- /.barWrapper -->
-                        <div class="barWrapper">
-                            <span class="progressText">Time Management</span>
-                            <div class="single-progress-txt">
-                                <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="10"
-                                         aria-valuemax="100" style="">
-
-                                    </div>
-                                </div>
-                                <h3></h3>
-                            </div>
-                        </div><!-- /.barWrapper -->
-                        <div class="barWrapper">
-                            <span class="progressText">Adaptability</span>
-                            <div class="single-progress-txt">
-                                <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10"
-                                         aria-valuemax="100" style="">
-
-                                    </div>
-                                </div>
-                                <h3></h3>
-                            </div>
-                        </div><!-- /.barWrapper -->
-                    </div>
+                <div class="col-12">
+                    <h6 class="text-uppercase"> We Craft Digital Experience</h6>
+                    <h1 class="display-2 my-3 text-white text-capitalize">Design driven <br> professionals.</h1>
+                    <a href="#" class="btn btn-brand">Get Started</a>
+                    <a href="#" class="btn btn-outline-light ms-md-3">Our Works</a>
                 </div>
-                <div class="col-md-6">
-                    <div class="single-skill-content">
-                        <div class="barWrapper">
-                            <span class="progressText">Leadership</span>
-                            <div class="single-progress-txt">
-                                <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10"
-                                         aria-valuemax="100" style="">
 
-                                    </div>
-                                </div>
-                                <h3></h3>
-                            </div>
-                        </div><!-- /.barWrapper -->
-                        <div class="barWrapper">
-                            <span class="progressText">Customer Engagement</span>
-                            <div class="single-progress-txt">
-                                <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10"
-                                         aria-valuemax="100" style="">
-
-                                    </div>
-                                </div>
-                                <h3></h3>
-                            </div>
-                        </div><!-- /.barWrapper -->
-                        <div class="barWrapper">
-                            <span class="progressText">Report Writing</span>
-                            <div class="single-progress-txt">
-                                <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="10"
-                                         aria-valuemax="100" style="">
-
-                                    </div>
-                                </div>
-                                <h3></h3>
-                            </div>
-                        </div><!-- /.barWrapper -->
-                        <div class="barWrapper">
-                            <span class="progressText"> Data Analysis</span>
-                            <div class="single-progress-txt">
-                                <div class="progress ">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10"
-                                         aria-valuemax="100" style="">
-
-                                    </div>
-                                </div>
-                                <h3></h3>
-                            </div>
-                        </div><!-- /.barWrapper -->
-                    </div>
-                </div>
-            </div><!-- /.row -->
-        </div>    <!-- /.container -->
-    </div><!-- /.skill-content-->
-
-</section><!--/.skills-->
-<!--skills end -->
-
-<!--experience start -->
-<section id="experience" class="experience">
-    <div class="section-heading text-center">
-        <h2>experience</h2>
-    </div>
-    <div class="container">
-        <div class="experience-content">
-            <div class="main-timeline">
-                <ul>
-                    <li>
-                        <div class="single-timeline-box fix">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="experience-time text-right">
-                                        <h2>June 2024- Present</h2>
-                                        <h3>Sustainable Environmental Company</h3>
-                                    </div><!--/.experience-time-->
-                                </div><!--/.col-->
-                                <div class="col-md-offset-1 col-md-5">
-                                    <div class="timeline">
-                                        <div class="timeline-content">
-                                            <h4 class="title">
-                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                                Enviromental Specialist.
-                                            </h4>
-                                            <h5>Al-Jubail, Saudi Arabia</h5>
-                                            <p class="description">
-                                            <ul style="list-style-type: disc">
-
-                                                <li> • Conduct stack emission sampling and monitoring, ensuring
-                                                    compliance
-                                                    with regulatory standards
-                                                    using specialized equipment and methodologies.
-                                                </li>
-                                                <li> • Perform laboratory tests on collected samples, analysing data to
-                                                    identify trends, anomalies, and
-                                                    environmental risks associated with emissions.
-                                                </li>
-                                                <li> • Monitor industrial facilities and construction sites for stack
-                                                    emission compliance, meticulously
-                                                    documenting observations and promptly reporting any non-compliance
-                                                    issues.
-                                                </li>
-                                                <li> • Prepare detailed reports summarizing monitoring activities,
-                                                    findings, and recommendations in
-                                                    accordance with regulatory requirements and industry standards.
-                                                </li>
-                                                <li> • Maintain and calibrate specialized monitoring equipment for
-                                                    precise
-                                                    measurements, strictly adhering
-                                                    to safety protocols during fieldwork.
-                                                </li>
-                                                <li> • Provide expertise in developing and implementing stack emission
-                                                    management plans, collaborating
-                                                    with clients and regulatory agencies to ensure effective
-                                                    communication and coordination.
-                                                </li>
-                                            </ul>
-
-
-                                        </div><!--/.timeline-content-->
-                                    </div><!--/.timeline-->
-                                </div><!--/.col-->
-                            </div>
-                        </div><!--/.single-timeline-box-->
-                    </li>
-
-                    <li>
-                        <div class="single-timeline-box fix">
-                            <div class="row">
-                                <div class="col-md-offset-1 col-md-5 experience-time-responsive">
-                                    <div class="experience-time text-right">
-                                        <h2>
-                                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                            Jan 2023 - May 2024
-                                        </h2>
-                                        <h3>Ecoscience Engineering Ltd</h3>
-                                    </div><!--/.experience-time-->
-                                </div><!--/.col-->
-                                <div class="col-md-5">
-                                    <div class="timeline">
-                                        <div class="timeline-content ">
-                                            <h4 class="title">
-                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                                Emmission Measurements Technician
-
-                                            </h4>
-                                            <h5>Nairobi, Kenya</h5>
-                                            <p class="description">
-                                            <ul>
-                                                <li> • Assist in environmental sampling and monitoring under experienced
-                                                    guidance to ensure regulatory compliance.
-                                                </li>
-                                                <li> • Support laboratory tests and data analysis to identify
-                                                    environmental risks in collected samples.
-                                                </li>
-                                                <li> • Aid in monitoring industrial activities and construction sites
-                                                    for compliance, documenting observations.
-                                                </li>
-                                                <li>• Learn to prepare detailed reports summarizing monitoring
-                                                    activities and findings.
-                                                </li>
-                                                <li> • Assist in equipment maintenance and calibration for accurate
-                                                    measurements.
-                                                </li>
-                                                <li> • Gain hands-on experience in adhering to safety protocols during
-                                                    fieldwork, staying updated on regulations.
-                                                </li>
-                                            </ul>
-
-                                        </div><!--/.timeline-content-->
-                                    </div><!--/.timeline-->
-                                </div><!--/.col-->
-                                <div class="col-md-offset-1 col-md-5 experience-time-main">
-                                    <div class="experience-time">
-                                        <h2>
-                                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                            Jan 2023- May 2024
-                                        </h2>
-                                        <h3>Ecoscience Engineering Limited</h3>
-                                    </div><!--/.experience-time-->
-                                </div><!--/.col-->
-                            </div>
-                        </div><!--/.single-timeline-box-->
-                    </li>
-
-                    <li>
-                        <div class="single-timeline-box fix">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="experience-time text-right">
-                                        <h2>March 2022-May 2022</h2>
-                                        <h3> SGS Kenya Limited</h3>
-                                    </div><!--/.experience-time-->
-                                </div><!--/.col-->
-                                <div class="col-md-offset-1 col-md-5">
-                                    <div class="timeline">
-                                        <div class="timeline-content">
-                                            <h4 class="title">
-                                                <span><i class="fa fa-circle" aria-hidden="true"></i></span>
-                                                Enviroment, Health and Safety Casual Technician
-                                            </h4>
-                                            <h5>Nairobi,Kenya</h5>
-                                            <p class="description">
-                                            <ul>
-                                                <li> • Ensure timely and accurate preparation and submission of
-                                                    Environmental
-                                                    Audit Reports to NEMA, following regulatory guidelines.
-                                                </li>
-                                                <li> • Conduct thorough Environmental, Health, and Safety Audits,
-                                                    identifying
-                                                    hazards and recommending corrective measures.
-                                                </li>
-                                                <li>• Prepare detailed monthly Environmental Inspection Reports for
-                                                    clients,
-                                                    providing tailored insights.
-                                                </li>
-                                                <li>• Utilize specialized equipment for precise field measurements of
-                                                    air,
-                                                    water, noise, and soil quality.
-                                                </li>
-                                                <li>• Analyse measurement data meticulously to assess compliance with
-                                                    environmental standards.
-                                                </li>
-                                                <li> • Collaborate with stakeholders to implement corrective actions and
-                                                    ensure ongoing regulatory compliance.
-                                                </li>
-                                            </ul>
-
-                                        </div><!--/.timeline-content-->
-                                    </div><!--/.timeline-->
-                                </div><!--/.col-->
-                            </div>
-                        </div><!--/.single-timeline-box-->
-                    </li>
-
-
-                </ul>
-            </div><!--.main-timeline-->
-        </div><!--.experience-content-->
-    </div>
-
-</section><!--/.experience-->
-<!--experience end -->
-
-<!
-
-<!--clients start -->
-<section id="clients" class="clients">
-    <div class="section-heading text-center">
-        <h2> Clients</h2>
-
-    </div>
-    <div class="service_container">
-
-        <div id="carouselExampleControls" class="carousel slide" data-bs-slide="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="cards-wrapper">
-                        <div class="card">
-                            <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                          alt="..."></div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 2</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="cards-wrapper">
-                        <div class="card">
-                            <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                          alt="..."></div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 2</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <div class="card d-none d-md-block">
-                            <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                          alt="..."></div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 7</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                        <div class="card d-none d-md-block">
-                            <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                          alt="..."></div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title 9</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="carousel-item">
-                <div class="cards-wrapper">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                      alt="..."></div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 3</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card d-none d-md-block">
-                        <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                      alt="..."></div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 8</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card d-none d-md-block">
-                        <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                      alt="..."></div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 6</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                    <div class="card d-none d-md-block">
-                        <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                      alt="..."></div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 5</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="cards-wrapper">
-                    <div class="card">
-                        <div class="img-wrapper"><img src="assets/images/clients/bat.jpeg" class="card-img-top"
-                                                      alt="..."></div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title 4</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-
     </div>
-
+    <!-- here is the second slider-->
+    <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h6 class="text-uppercase"> Get The Experience</h6>
+                    <h1 class="display-2 my-3 text-capitalize">Design driven <br> professionals.</h1>
+                    <a href="#" class="btn btn-brand">Get Started</a>
+                    <a href="#" class="btn btn-outline-light ms-md-3">Our Works</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about us-->
+<section id="about us">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5">
+                <div class="row">
+                    <div class="col-12 info-box mt-3">
+                        <img src="images/automation%20(1).png" alt="">
+                        <div>
+                            <h5>Digital Marketing</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi architecto aut
+                                deleniti dolor earum eum facere incidunt, ipsa molestiae obcaecati </p>
+                        </div>
+                    </div>
+                    <div class="col-12 info-box mt-3">
+                        <img src="images/automation%20(2).png" alt="">
+                        <div>
+                            <h5>Email Marketing</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi architecto aut
+                                deleniti dolor earum eum facere incidunt, ipsa molestiae obcaecati </p>
+                        </div>
+                    </div>
+                    <div class="col-12 info-box mt-3">
+                        <img src="images/automation%20(3).png" alt="">
+                        <div>
+                            <h5>Business Marketing</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi architecto aut
+                                deleniti dolor earum eum facere incidunt, ipsa molestiae obcaecati </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--             this is the right image-->
+            <div class="col-lg-5 mango">
+                <img src="images/ps7.jpg" alt="">
+            </div>
+        </div>
+    </div>
 
 </section>
+<!--milestone-->
+<section id="milestone" class="bg-cover">
+    <div class="container">
+        <div class="row gy-3 text-center justify-content-center">
+            <!-- the last two classes are used to centre the texts-->
+            <!-- gy-3 this is a top and bottom class in small devices-->
+            <div class="col-lg-2 col-sm-6">
+                <div class="display-4">4546</div>
+                <p class="mb-0"> happy clients</p><!-- we are trying to create the counter 1 here-->
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="display-4">5678</div>
+                <p class="mb-0"> happy clients</p><!-- we are trying to create the counter 2 here-->
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="display-4">4356</div>
+                <p class="mb-0"> happy clients</p><!-- we are trying to create the counter 3 here-->
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="display-4">9845</div>
+                <p class="mb-0"> happy clients</p><!-- we are trying to create the counter 4 here-->
+            </div>
 
-<!--/.clients-->
-<!--clients end -->
-
-<!--contact start -->
-<section id="contact" class="contact">
-    <div class="section-heading text-center">
-        <h2>contact me</h2>
+        </div>
     </div>
+</section>
+
+<!--services-->
+<section id="services">
     <div class="container">
-        <div class="contact-content">
+        <div class="row g-4"> <!-- the clas g-4 is extremely useful in small devices-->
+            <div class="col-12 intro text-center">
+                <h6>Our Services</h6>
+                <h1>What we provide?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque delectus, eligendi ipsa nihil
+                    obcaecati reprehenderit veniam voluptate. Deleniti dolorum, ducimus illo nemo odit sapiente. </p>
+            </div>
             <div class="row">
-                <div class="col-md-offset-1 col-md-5 col-sm-6">
-                    <div class="single-contact-box">
-                        <div class="contact-form">
-                            <form>
-                                <div class="row">
-                                    <div class="col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="name" placeholder="Name*"
-                                                   name="name">
-                                        </div><!--/.form-group-->
-                                    </div><!--/.col-->
-                                    <div class="col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" id="email" placeholder="Email*"
-                                                   name="email">
-                                        </div><!--/.form-group-->
-                                    </div><!--/.col-->
-                                </div><!--/.row-->
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                                   name="subject">
-                                        </div><!--/.form-group-->
-                                    </div><!--/.col-->
-                                </div><!--/.row-->
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="form-group">
-                                            <textarea class="form-control" rows="8" id="comment"
-                                                      placeholder="Message"></textarea>
-                                        </div><!--/.form-group-->
-                                    </div><!--/.col-->
-                                </div><!--/.row-->
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="single-contact-btn">
-                                            <a class="contact-btn" href="#" role="button">submit</a>
-                                        </div><!--/.single-single-contact-btn-->
-                                    </div><!--/.col-->
-                                </div><!--/.row-->
-                            </form><!--/form-->
-                        </div><!--/.contact-form-->
-                    </div><!--/.single-contact-box-->
-                </div><!--/.col-->
-                <div class="col-md-offset-1 col-md-5 col-sm-6">
-                    <div class="single-contact-box">
-                        <div class="contact-adress">
-                            <div class="contact-add-head">
-                                <h3>Polycarp Keru</h3>
-                                <p>Air Quality Technician.</p>
-                            </div>
-                            <div class="contact-add-info">
-                                <div class="single-contact-add-info">
-                                    <h3>phone</h3>
-                                    <p>+25470</p>
-                                </div>
-                                <div class="single-contact-add-info">
-                                    <h3>email</h3>
-                                    <p>polycarpkeru68@gmail.com</p>
-                                </div>
-                                <div class="single-contact-add-info">
-                                    <h3>website</h3>
-                                    <p>www.brownsine.com</p>
-                                </div>
-                            </div>
-                        </div><!--/.contact-adress-->
-                        <div class="hm-foot-icon">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li><!--/li-->
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li><!--/li-->
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li><!--/li-->
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li><!--/li-->
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li><!--/li-->
-                            </ul><!--/ul-->
-                        </div><!--/.hm-foot-icon-->
-                    </div><!--/.single-contact-box-->
-                </div><!--/.col-->
-            </div><!--/.row-->
-        </div><!--/.contact-content-->
-    </div><!--/.container-->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="images/automation%20(1).png" alt="">
+                        <h5>Digital Marketing</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur distinctio
+                            dolorem ipsa iure, laborum laudantium quae quaerat similique vitae!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="images/automation%20(2).png" alt="">
+                        <h5>Digital Marketing</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur distinctio
+                            dolorem ipsa iure, laborum laudantium quae quaerat similique vitae!</p>
+                    </div>
 
-</section><!--/.contact-->
-<!--contact end -->
-
-<!--footer-copyright start-->
-<footer id="footer-copyright" class="footer-copyright">
-    <div class="container">
-        <div class="hm-footer-copyright text-center">
-            <p>
-                &copy; copyright JGathoni. design and developed by <a href="https://www.themesine.com/">JGathoni</a>
-            </p><!--/p-->
-        </div><!--/.text-center-->
-    </div><!--/.container-->
-
-    <div id="scroll-Top">
-        <div class="return-to-top">
-            <i class="fa fa-angle-up " id="scroll-top"></i>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="images/automation%20(1).png" alt="">
+                        <h5>Digital Marketing</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur distinctio
+                            dolorem ipsa iure, laborum laudantium quae quaerat similique vitae!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-box">
+                    <img src="images/automation%20(1).png" alt="">
+                    <h5>Digital Marketing</h5>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur distinctio
+                        dolorem ipsa iure, laborum laudantium quae quaerat similique vitae!</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-box">
+                    <img src="images/automation%20(3).png" alt="">
+                    <h5>Digital Marketing</h5>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur distinctio
+                        dolorem ipsa iure, laborum laudantium quae quaerat similique vitae!</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-box">
+                    <img src="images/automation%20(1).png" alt="">
+                    <h5>Digital Marketing</h5>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur distinctio
+                        dolorem ipsa iure, laborum laudantium quae quaerat similique vitae!</p>
+                </div>
+            </div>
         </div>
 
-    </div><!--/.scroll-Top-->
 
-</footer><!--/.footer-copyright-->
-<!--footer-copyright end-->
+    </div>
+</section>
+<!-- portfolio-->
+<section id="portfolio">
+    <div class="container">
+        <div class="row"> <!-- the clas g-4 is extremely useful in small devices-->
+            <div class="col-12 intro text-center">
+                <h6>Our Work</h6>
+                <h1>Our Recent Works</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cumque delectus, eligendi ipsa nihil
+                    obcaecati reprehenderit veniam voluptate. Deleniti dolorum, ducimus illo nemo odit sapiente. </p>
+            </div>
+        </div>
+    </div>
+    <div id="project-slider" class="owl-theme owl-carousel">
+        <div class="project">
+            <img src="images/a1.jpeg" alt="">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Project Title</h1>
+                <h6>Project Subtitle</h6>
+            </div>
+        </div>
+        <div class="project">
+            <img src="images/b2.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Project Title</h1>
+                <h6>Project Subtitle</h6>
+            </div>
+        </div>
+        <div class="project">
+            <img src="images/b3.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Project Title</h1>
+                <h6>Project Subtitle</h6>
+            </div>
+        </div>
+        <div class="project">
+            <img src="images/b4.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Project Title</h1>
+                <h6>Project Subtitle</h6>
+            </div>
+        </div>
 
-<!-- Include all js compiled plugins (below), or include individual files as needed -->
+    </div>
+</section>
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 intro text-center">
+                <h6>Our Team</h6>
+                <h1>Meet Our Team</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem consectetur dignissimos
+                    excepturi in itaque nam natus .</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="team-members">
+                <div class="img-wrapper">
+                    <img src="images/c1.jpg" alt="">
+                </div>
+                <div class="overlay"></div>
+                <div class="social-links">
+                    <a href="#" target="_blank"> <img src="images/tiktok-logo-24.png" alt="Twitter"> </a>
+                    <a href="#" target="_blank"> <img src="images/whatsapp-logo-24.png" alt="snapchat"> </a>
+                    <a href="#" target="_blank"> <img src="images/linkedin-logo-24%20(1).png" alt="Linkedin"> </a>
+                    <a href="#" target="_blank"> <img src="images/reddit-logo-24.png" alt="reddit"> </a>
+                </div>
+            </div>
+            <div class="content">
+                <h5>Mary Jane</h5>
+                <p>Experience Matters.</p>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="team-members">
+                <div class="img-wrapper">
+                    <img src="images/c4.jpg" alt="">
+                </div>
+                <div class="overlay"></div>
+                <div class="social-links">
+                    <a href="#" target="_blank"> <img src="images/tiktok-logo-24.png" alt="Twitter"> </a>
+                    <a href="#" target="_blank"> <img src="images/whatsapp-logo-24.png" alt="snapchat"> </a>
+                    <a href="#" target="_blank"> <img src="images/linkedin-logo-24%20(1).png" alt="Linkedin"> </a>
+                    <a href="#" target="_blank"> <img src="images/reddit-logo-24.png" alt="reddit"> </a>
+                </div>
+            </div>
+            <div class="content">
+                <h5>Stephen K.</h5>
+                <p>Experience Matters.</p>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="team-members">
+                <div class="img-wrapper">
+                    <img src="images/c3.jpg" alt="">
+                </div>
+                <div class="overlay"></div>
+                <div class="social-links">
+                    <a href="#" target="_blank"> <img src="images/tiktok-logo-24.png" alt="Twitter"> </a>
+                    <a href="#" target="_blank"> <img src="images/whatsapp-logo-24.png" alt="snapchat"> </a>
+                    <a href="#" target="_blank"> <img src="images/linkedin-logo-24%20(1).png" alt="Linkedin"> </a>
+                    <a href="#" target="_blank"> <img src="images/reddit-logo-24.png" alt="reddit"> </a>
+                </div>
+            </div>
+            <div class="content">
+                <h5>Lan Del Ray</h5>
+                <p>Experience Matters.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- reviews-->
+<section id="reviews" class="bg-cover">
+    <div class="owl-carousel owl-theme" id="reviews-slider">
+        <div class="review">
+            <img src="images/q4.jpg" alt="">
+            <h4> Mary Ann</h4>
+            <small>Web Developer</small>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Asperiores, culpa deleniti
+                distinctio earum explicabo,
+                <br>itaque iure laborum nobis numquam quasi</p>
+        </div>
+        <div class="review">
+            <img src="images/q3.jpg" alt="">
+            <h4> John Ice</h4>
+            <small>Web Developer</small>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Asperiores, culpa deleniti
+                distinctio earum explicabo,
+                <br>itaque iure laborum nobis numquam quasi</p>
+        </div>
+        <div class="review">
+            <img src="images/q2.jpg" alt="">
+            <h4>Ken Lam</h4>
+            <small>Web Developer</small>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Asperiores, culpa deleniti
+                distinctio earum explicabo,<br> itaque iure laborum nobis numquam quasi</p>
+        </div>
+        <div class="review">
+            <img src="images/q1.jpg" alt="">
+            <h4> Don Khan</h4>
+            <small>Web Developer</small>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Asperiores, culpa deleniti
+                distinctio earum explicabo,<br> itaque iure laborum nobis numquam quasi</p>
+        </div>
+    </div>
+</section>
+<!--blog-->
+<section id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 intro text-center">
+                <h6>Our Blog</h6>
+                <h1>Check out the latest posts?</h1>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="blog-post">
+                    <a href="#" class="tag"> Web Design</a>
+                    <img src="images/ps1.jpg" alt="">
+                    <small>12 December 2099</small>
+                    <h4>Web Design in 2025</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos ducimus neque vitae
+                        voluptatem. Assumenda deserunt dolores fugit, laboriosam nisi optio possimus quasi soluta
+                        voluptas voluptate. Accusamus assumenda error et.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-post">
+                    <a href="#" class="tag"> Web Design</a>
+                    <img src="images/b3.jpg" alt="">
+                    <small>12 December 2099</small>
+                    <h4><a href="#">Web design in 2025</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos ducimus neque vitae
+                        voluptatem. Assumenda deserunt dolores fugit, laboriosam nisi optio possimus quasi soluta
+                        voluptas voluptate. Accusamus assumenda error et.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-post">
+                    <a href="#" class="tag"> Web Design</a>
+                    <img src="images/b4.jpg" alt="">
+                    <small>12 December 2099</small>
+                    <h4><a href="#">Web Design in 2025</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos ducimus neque vitae
+                        voluptatem. Assumenda deserunt dolores fugit, laboriosam nisi optio possimus quasi soluta
+                        voluptas voluptate. Accusamus assumenda error et.</p>
+                </div>
+            </div>
 
-<script src="assets/js/jquery.js"></script>
+        </div>
+    </div>
+</section>
+<!--footer section-->
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto"> <!-- mx-auto centres the whole column-->
+                    <a class="navbar-brand" href="#">JG <span>.</span></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto corporis, cum dolores eos
+                        est eum, impedit in laudantium minima modi molestiae natus non quam repellendus similique
+                        tempora tempore, temporibus voluptatem.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"> <img src="images/tiktok-logo-24.png" alt="Twitter"> </a>
+                        <a href="#" target="_blank"> <img src="images/whatsapp-logo-24.png" alt="snapchat"> </a>
+                        <a href="#" target="_blank"> <img src="images/linkedin-logo-24%20(1).png" alt="Linkedin"> </a>
+                        <a href="#" target="_blank"> <img src="images/reddit-logo-24.png" alt="reddit"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="mb-0"> copyright@2022</p>
+        </div>
+    </div>
+    </div>
+    </div>
 
-<!--modernizr.min.js-->
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>-->
+</footer>
+<!--this is the modal class used below the footer containg forms inside -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialogue-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="col-lg-4 bg-cover" style="background-image: url(" images
+                    /ps3.jpg"); min-height:300px;">
+                </div>
+                <div class="col-lg-8">
+                    <form action="" class="row">
+                        <h1>Get In Touch</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi iure </p>
+                        <div class="col-lg-6">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                   placeholder="John ">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                   placeholder=" doe">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                   placeholder="Johndoe@gmail.com">
+                            <div class="col-12">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                             <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
-<!--bootstrap.min.js-->
-<script src="assets/js/bootstrap.min.js"></script>
 
-<!-- bootsnav js -->
-<script src="assets/js/bootsnav.js"></script>
-
-<!-- jquery.sticky.js -->
-<script src="assets/js/jquery.sticky.js"></script>
-
-<!-- for progress bar start-->
-
-<!-- progressbar js -->
-<script src="assets/js/progressbar.js"></script>
-
-<!-- appear js -->
-<script src="assets/js/jquery.appear.js"></script>
-
-<!-- for progress bar end -->
-
-<!--owl.carousel.js-->
-
-
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>-->
-
-
-<!--Custom JS-->
-<script src="assets/js/custom.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-<script src="style2.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+<script>
+    // Initialize Bootstrap scrollspy
+    const body = document.body;
+    const scrollSpy = new bootstrap.ScrollSpy(body, {
+        target: '.navbar',
+        offset: 70 // Adjust this value to change the scroll offset
+    });
+</script>
 </body>
-
 </html>
